@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowHooksApp", "WindowHooksApp\WindowHooksApp.csproj", "{25014527-2F1E-45DC-ADD4-E971B3B3F1EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Console", "WindowHooksApp\App.Console.csproj", "{25014527-2F1E-45DC-ADD4-E971B3B3F1EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32Wrappers", "Win32Wrappers\Win32Wrappers.csproj", "{A29F2ADB-9856-4623-99EC-5ECAD2F4DE53}"
 EndProject
