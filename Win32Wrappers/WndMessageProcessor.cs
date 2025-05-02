@@ -2,7 +2,7 @@
 
 using System.Runtime.InteropServices;
 
-class WndMessageProcessor
+public class WndMessageProcessor
 {
     public delegate IntPtr LowLevelProc(int nCode, IntPtr wParam, IntPtr lParam);
 
@@ -24,7 +24,6 @@ class WndMessageProcessor
 
     [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
     private static extern bool TranslateMessage(ref Message lpMsg);
-
 
 
     private static IntPtr _hookID = IntPtr.Zero;
